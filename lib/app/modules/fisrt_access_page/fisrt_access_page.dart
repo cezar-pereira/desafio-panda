@@ -2,16 +2,16 @@ import 'package:desafio_pandapay/app/modules/shared/ui/components_ui.dart';
 import 'package:desafio_pandapay/app/modules/shared/ui/theme.dart';
 import 'package:flutter/material.dart';
 
-class FisrtAccessPagePage extends StatefulWidget {
+class FisrtAccessPage extends StatefulWidget {
   final String title;
-  const FisrtAccessPagePage({Key key, this.title = "FisrtAccessPage"})
+  const FisrtAccessPage({Key key, this.title = "FisrtAccessPage"})
       : super(key: key);
 
   @override
   _FisrtAccessPagePageState createState() => _FisrtAccessPagePageState();
 }
 
-class _FisrtAccessPagePageState extends State<FisrtAccessPagePage>
+class _FisrtAccessPagePageState extends State<FisrtAccessPage>
     with ComponentsUi {
   PageController pageController;
 
